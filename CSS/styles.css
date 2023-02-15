@@ -47,6 +47,11 @@ body{
 .contact-message{
     margin: 40px auto 40px auto;
 }
+
+.dp{
+    width: 23rem;
+    height: 23rem;
+}
 .top-container{
     background-color: #B9F3FC;
     position: relative;
