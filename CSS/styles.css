@@ -3,13 +3,7 @@ body{
     text-align: center;
     font-family: 'Merriweather', serif;
     color: #40514E;
-    
-}
-
-.bottom-cloud{
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
+    background-color: #E3F6FF
 }
 
 .bottom-container{
@@ -93,8 +87,16 @@ h3{
 
 }
 
+.helicopter{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+    width: 12%;
+    transform: rotate(15deg);
+}
+
 hr {
-    border: dotted #EAF6F6 6px;
+    border: dotted #d0d8d8 6px;
     border-bottom: none;
     width: 8%;
     margin: 100px auto 100px auto;
@@ -108,6 +110,10 @@ hr {
 
 .middle-container{
     margin: 100px 0 100px 0;
+}
+
+.mountain {
+    width:35%;
 }
 
 .name{
@@ -132,10 +138,12 @@ p{
 
 }
 
-.top-cloud{
+.plane{
     position: absolute;
-    top: 50px;
+    top: 100px;
     right: 300px;
+    width: 10%;
+    transform: rotate(17deg);
 }
 
 .skill-row{
